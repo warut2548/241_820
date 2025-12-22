@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container .item {
+            background-color:cadetblue;
+        }    
+        .main-container .item {
+            background-color: rgb(0, 42, 255);
+        } 
+        .button.active{
+            background-color: rgb(255, 17, 0);
+        }
+        .button.danger{
+            background-color: rgb(217, 255, 0);
+        }
+        .item1 + .item2{
+            background-color: rgb(157, 254, 254);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        container
+    <div class="item">
+        item 1
+      </div>
+    </div>
+
+
+<div class="main-container">
+        container
+    <div class="item">
+        Item
+        <div>
+        <div class="item">
+            Item 1
+       </div>
+       <div class="item">
+            Item 2
+       </div> 
+       <div class="item">
+            Item 3        
+       </div>
+    </div>
+ </div>    
+
+
+ <button class="button">Click Me</button>
+ <button class="button active">Click Me</button>
+ <button class="button active">Click Me</button>
+
+ <div class="item1">Item 1</div>
+ <div class="item1">Item 2</div>
+
+
+</body>
+</html>
